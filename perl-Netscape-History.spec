@@ -3,7 +3,7 @@ Summary:	Netscape-History perl module
 Summary(pl):	Modu³ perla Netscape-History
 Name:		perl-Netscape-History
 Version:	2.02
-Release:	3
+Release:	4
 Copyright:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
@@ -50,6 +50,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %{perl_sitelib}/Netscape/History.pm
 %{perl_sitelib}/Netscape/HistoryURL.pm
-%{perl_sitearch}/auto/Netscape
+%{perl_sitearch}/auto/Netscape/.packlist
 
 %{_mandir}/man3/*
