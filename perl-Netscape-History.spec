@@ -26,7 +26,7 @@ Netscape-History umo¿liwia dostêp do bazy danych historii Netscape'a.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
