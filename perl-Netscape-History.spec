@@ -3,8 +3,8 @@
 %bcond_with	tests	# perform "make test" (uses network!)
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Netscape
-%define	pnam	History
+%define		pdir	Netscape
+%define		pnam	History
 Summary:	Netscape::History perl module
 Summary(pl):	Modu³ perla Netscape::History
 Name:		perl-Netscape-History
