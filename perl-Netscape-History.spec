@@ -3,7 +3,7 @@ Summary:	Netscape-History perl module
 Summary(pl):	Modu³ perla Netscape-History
 Name:		perl-Netscape-History
 Version:	3.01
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
