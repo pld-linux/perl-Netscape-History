@@ -27,7 +27,7 @@ Netscape::History umo¿liwia dostêp do bazy danych historii Netscape'a.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
