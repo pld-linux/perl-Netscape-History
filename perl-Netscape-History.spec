@@ -2,12 +2,12 @@
 Summary:	Netscape-History perl module
 Summary(pl):	Modu³ perla Netscape-History
 Name:		perl-Netscape-History
-Version:	2.02
-Release:	4
-Copyright:	GPL
+Version:	3.00
+Release:	1
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module//Netscape-History-%{version}.tar.gz
+Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Netscape/Netscape-History-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 BuildRequires:	perl-URI
