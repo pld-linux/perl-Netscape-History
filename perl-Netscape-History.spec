@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Netscape
 %define	pnam	History
-%include	/usr/lib/rpm/macros.perl
 Summary:	Netscape-History perl module
 Summary(pl):	Modu³ perla Netscape-History
 Name:		perl-Netscape-History
 Version:	3.01
-Release:	4
-
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +22,7 @@ Netscape-History - module for accessing Netscape history database.
 Netscape-History umo¿liwia dostêp do bazy danych historii Netscape'a.
 
 %prep
-%setup -q -n Netscape-History-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
