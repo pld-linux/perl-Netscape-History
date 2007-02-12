@@ -6,7 +6,7 @@
 %define		pdir	Netscape
 %define		pnam	History
 Summary:	Netscape::History perl module
-Summary(pl):	Modu³ perla Netscape::History
+Summary(pl.UTF-8):   ModuÅ‚ perla Netscape::History
 Name:		perl-Netscape-History
 Version:	3.01
 Release:	7
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Netscape::History - module for accessing Netscape history database.
 
-%description -l pl
-Netscape::History umo¿liwia dostêp do bazy danych historii Netscape'a.
+%description -l pl.UTF-8
+Netscape::History umoÅ¼liwia dostÄ™p do bazy danych historii Netscape'a.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
