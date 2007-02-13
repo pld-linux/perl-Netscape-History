@@ -6,7 +6,7 @@
 %define		pdir	Netscape
 %define		pnam	History
 Summary:	Netscape::History perl module
-Summary(pl.UTF-8):   Moduł perla Netscape::History
+Summary(pl.UTF-8):	Moduł perla Netscape::History
 Name:		perl-Netscape-History
 Version:	3.01
 Release:	7
