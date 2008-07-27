@@ -9,7 +9,7 @@ Summary:	Netscape::History perl module
 Summary(pl.UTF-8):	Moduł perla Netscape::History
 Name:		perl-Netscape-History
 Version:	3.01
-Release:	7
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
