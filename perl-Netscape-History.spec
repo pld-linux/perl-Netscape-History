@@ -4,7 +4,6 @@
 
 %define		pdir	Netscape
 %define		pnam	History
-%include	/usr/lib/rpm/macros.perl
 Summary:	Netscape::History perl module
 Summary(pl.UTF-8):	Moduł perla Netscape::History
 Name:		perl-Netscape-History
